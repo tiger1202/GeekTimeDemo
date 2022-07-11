@@ -6,7 +6,7 @@
 //
 
 #import "GTVideoViewController.h"
-#import "GTVideoCoverView.h""
+#import "GTVideoCoverView.h"
 
 @interface GTVideoViewController ()<UICollectionViewDelegateFlowLayout, UICollectionViewDataSource>
 
