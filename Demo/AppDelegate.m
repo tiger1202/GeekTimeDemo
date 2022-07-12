@@ -9,6 +9,7 @@
 #import "GTNewsViewController.h"
 #import "GTVideoViewController.h"
 #import "GTRecommendViewController.h"
+#import "QUILoadingViewController.h"
 
 @implementation AppDelegate
 
@@ -27,7 +28,8 @@
     
     GTVideoViewController *videoViewController = [GTVideoViewController new];
     
-    GTRecommendViewController *recommendController = [GTRecommendViewController new];
+//    GTRecommendViewController *recommendController = [GTRecommendViewController new];
+    GTRecommendViewController *recommendController = [QUILoadingViewController new];
     
     UIViewController *tabbarSubViewController4 = [UIViewController new];
     tabbarSubViewController4.view.backgroundColor = [UIColor lightGrayColor];
